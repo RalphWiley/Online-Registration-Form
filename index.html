@@ -26,19 +26,19 @@
             <legend>Contact Information</legend>
 
             <label for="name">Full Name</label>
-            <input type="text" id="name" name="user_name" placeholder="Required"> 
+            <input required type="text" id="name" name="user_name" placeholder="Required"> 
 
             <label for="email">Email Address</label>
-            <input type="email" id="mail" name="user_email" placeholder="Required">
+            <input required type="email" id="email" name="user_email" placeholder="Required">
 
             <label for="phone">Phone Number</label>
-            <input type="number" id="phone" name="user_phone">
+            <input type="text" id="phone" name="user_phone" placeholder="Phone Number">
 
             <label for="address">Street Address</label>
-            <input type="text" id="address" name="user_address">
+            <input type="text" id="address" name="user_address" placeholder="Street Address">
 
             <label for="city">City</label>
-            <input type="text" id="city" name="user_city">
+            <input type="text" id="city" name="user_city" placeholder="City">
 
             <label for="state">State</label>
             <select class="arrows" id="state" name="user_state">
@@ -97,16 +97,16 @@
             </select>
 
             <label for="zip">Zip Code</label>
-            <input type="number" id="zip" name="user_zipcode">
+            <input type="number" id="zip" name="user_zipcode" placeholder="Zip Code">
         </fieldset>
 
         <fieldset class="newsletter">
             <legend class="news-title">Newsletter</legend>
 
             <label class="label">Select the newsletters you would like to recieve</label>
-            <label for="html" class="light"><input type="checkbox" id="html-news" value="html-n" name="newsletter">HTML News</label>
-            <label for="text" class="light"><input type="checkbox" id="css-news" value="css-n" name="newsletter">CSS News</label>
-            <label for="text" class="light"><input type="checkbox" id="java-news" value="j-n" name="newsletter">Javascript News</label><br>
+            <label for="html-news" class="light"><input type="checkbox" id="html-news" value="html-n" name="newsletter">HTML News</label>
+            <label for="css-news" class="light"><input type="checkbox" id="css-news" value="css-n" name="newsletter">CSS News</label>
+            <label for="java-news" class="light"><input type="checkbox" id="java-news" value="j-n" name="newsletter">Javascript News</label><br>
 
 
             <label class="label">Newsletter format</label>
