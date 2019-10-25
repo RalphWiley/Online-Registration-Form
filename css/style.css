@@ -118,7 +118,7 @@ label.light {
 
 input[type="text"],
 input[type="email"],
-input[type="number"],
+input[type="tel"],
 textarea,
 select {
   border: 1.5px solid white;
@@ -221,7 +221,7 @@ span {
 
     input[type="text"],
     input[type="email"],
-    input[type="number"],
+    input[type="tel"],
     select{
         margin-left: 70px;
         margin-top: -35px;
